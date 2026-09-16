@@ -86,4 +86,4 @@ Puntos importantes:
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md)
+[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md)

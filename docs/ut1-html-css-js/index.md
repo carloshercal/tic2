@@ -12,10 +12,12 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 
 ## Contenidos
 
+
 1. [HTML5 — Estructura y contenido](html.md)
-2. [CSS — Estilos y maquetación](css.md)
-3. [JavaScript — Interactividad](javascript.md)
-4. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
+2. [Prácticas de HTML5](practicas-html.md)
+3. [CSS — Estilos y maquetación](css.md)
+4. [JavaScript — Interactividad](javascript.md)
+5. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
 
 ## Qué vas a aprender
 

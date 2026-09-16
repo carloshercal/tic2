@@ -193,4 +193,4 @@ La propiedad `position` controla cómo se sitúa un elemento en la página:
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
+[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)

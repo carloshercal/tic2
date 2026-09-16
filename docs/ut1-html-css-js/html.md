@@ -342,4 +342,4 @@ Otros atributos útiles de `<input>`: `name` (identificador del campo), `value` 
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
+[⬅ Volver a UT1](index.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
