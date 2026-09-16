@@ -1,0 +1,33 @@
+# Configuración del sitio publicado con GitHub Pages desde /docs.
+# GitHub reconstruye esto automáticamente en cada push a main
+# (Settings → Pages → Deploy from a branch → main /docs).
+
+title: TIC II
+description: >-
+  Contenido de consulta (teoría y prácticas) de Tecnologías de la
+  Información y la Comunicación II — 2º Bachillerato.
+
+# Si el repo se llama "TU-USUARIO.github.io" deja esto en blanco.
+# Si tiene otro nombre (p. ej. "tic2-2bach"), la web queda en
+# https://TU-USUARIO.github.io/tic2-2bach y hace falta rellenar:
+url: "https://carloshercal.github.io"
+baseurl: "/tic2"
+
+lang: es
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# minima genera un menú automático con TODAS las páginas del sitio si no
+# se limita explícitamente. Como navegas enlazando a mano desde index.md
+# (igual que en Servicios en Red), lo dejamos vacío para que no aparezca
+# ese menú y no se llene de enlaces a medida que añadas teoria/ y practicas/.
+header_pages: []
+
+minima:
+  skin: auto        # respeta modo claro/oscuro del sistema
+  social_links: []   # sin iconos de redes sociales en el pie

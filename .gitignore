@@ -1,0 +1,24 @@
+# Jekyll (sitio publicado desde /docs)
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.sass-cache/
+ 
+# Ruby / Bundler
+.bundle/
+vendor/
+Gemfile.lock
+ 
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+ 
+# VS Code (deja settings.json de equipo si lo compartes; ignora lo personal)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+ 
+# Varios
+*.log
+.env
