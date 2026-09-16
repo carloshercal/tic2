@@ -7,27 +7,37 @@ description: >-
   Contenido de consulta (teoría y prácticas) de Tecnologías de la
   Información y la Comunicación II — 2º Bachillerato.
 
-# Si el repo se llama "TU-USUARIO.github.io" deja esto en blanco.
-# Si tiene otro nombre (p. ej. "tic2-2bach"), la web queda en
-# https://TU-USUARIO.github.io/tic2-2bach y hace falta rellenar:
+# Repo "tic2" (no "carloshercal.github.io"), así que la web queda en
+# https://carloshercal.github.io/tic2 y hace falta rellenar url/baseurl:
 url: "https://carloshercal.github.io"
 baseurl: "/tic2"
 
 lang: es
 
-theme: minima
+# Sin tema de terceros: minima generaba en la cabecera un menú automático con
+# TODAS las páginas del sitio. Poner "header_pages: []" para vaciarlo NO
+# funciona: en la plantilla de minima usan "site.header_pages | default: ...",
+# y en Liquid un array vacío se considera "vacío" igual que si no existiera,
+# así que el filtro "default" lo sustituye igualmente por la lista completa
+# de páginas. Es un problema conocido del tema, no un fallo de configuración.
+#
+# En vez de pelear con eso, usamos una plantilla propia muy sencilla
+# (docs/_layouts/default.html + docs/assets/css/style.css): la cabecera solo
+# muestra el título del sitio, sin ningún menú automático, y seguimos
+# navegando a mano desde index.md, igual que en Servicios en Red.
+# (Sin "theme:" — GitHub Pages usa por defecto la plantilla que definamos
+# nosotros en _layouts/, sin caer en minima ni en ningún otro tema.)
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# minima genera un menú automático con TODAS las páginas del sitio si no
-# se limita explícitamente. Como navegas enlazando a mano desde index.md
-# (igual que en Servicios en Red), lo dejamos vacío para que no aparezca
-# ese menú y no se llene de enlaces a medida que añadas teoria/ y practicas/.
-header_pages: []
-
-minima:
-  skin: auto        # respeta modo claro/oscuro del sistema
-  social_links: []   # sin iconos de redes sociales en el pie
+# Aplica la plantilla propia (docs/_layouts/default.html) a todas las
+# páginas del sitio sin tener que añadir "layout: default" en cada .md.
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default

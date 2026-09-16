@@ -1,0 +1,135 @@
+/* Estilos propios del sitio TIC II — sin depender de ningún tema de terceros.
+   Objetivo: cabecera simple (solo el título del sitio, sin menú automático)
+   y contenido cómodo de leer para el alumnado. */
+
+:root {
+  --color-fondo: #ffffff;
+  --color-texto: #24292e;
+  --color-texto-suave: #57606a;
+  --color-enlace: #0b5fa5;
+  --color-borde: #e1e4e8;
+  --color-fondo-code: #f6f8fa;
+  --color-acento: #0b5fa5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fondo: #0d1117;
+    --color-texto: #c9d1d9;
+    --color-texto-suave: #8b949e;
+    --color-enlace: #6cb6ff;
+    --color-borde: #30363d;
+    --color-fondo-code: #161b22;
+    --color-acento: #6cb6ff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--color-borde);
+  padding: 1rem 1.5rem;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+.site-title:hover {
+  color: var(--color-acento);
+}
+
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.site-footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-borde);
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+}
+
+h1 {
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: 0.4rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: 0.3rem;
+}
+
+a {
+  color: var(--color-enlace);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--color-acento);
+  background: var(--color-fondo-code);
+  color: var(--color-texto-suave);
+}
+
+code {
+  background: var(--color-fondo-code);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre {
+  background: var(--color-fondo-code);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid var(--color-borde);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: var(--color-fondo-code);
+}
