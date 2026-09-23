@@ -192,7 +192,74 @@ Además de las etiquetas para fragmentos de texto, existen etiquetas para agrupa
 </dl>
 ```
 
-`<ol>` admite además los atributos `start` (número por el que empieza a contar la lista), `reversed` (numera en orden inverso) y `type` (números, letras o números romanos, en mayúsculas o minúsculas).
+`<ol>` admite además los atributos `start`, `reversed` y `type`, que cambian cómo se numera la lista sin tener que tocar el HTML de cada `<li>`. Aquí tienes cada uno con un ejemplo y el resultado ya renderizado:
+
+**`start`** — número por el que empieza a contar la lista (por defecto, `1`):
+
+```html
+<ol start="5">
+  <li>Quinto</li>
+  <li>Sexto</li>
+  <li>Séptimo</li>
+</ol>
+```
+
+<div class="resultado" markdown="0">
+<ol start="5">
+  <li>Quinto</li>
+  <li>Sexto</li>
+  <li>Séptimo</li>
+</ol>
+</div>
+
+**`reversed`** — numera en orden inverso (de mayor a menor), aunque los `<li>` se escriban en el orden normal:
+
+```html
+<ol reversed>
+  <li>Tercer paso</li>
+  <li>Segundo paso</li>
+  <li>Primer paso</li>
+</ol>
+```
+
+<div class="resultado" markdown="0">
+<ol reversed>
+  <li>Tercer paso</li>
+  <li>Segundo paso</li>
+  <li>Primer paso</li>
+</ol>
+</div>
+
+**`type`** — cambia el estilo de numeración: `1` (números, valor por defecto), `A` / `a` (letras mayúsculas/minúsculas) o `I` / `i` (números romanos mayúsculas/minúsculas):
+
+```html
+<ol type="A">
+  <li>Opción A</li>
+  <li>Opción B</li>
+  <li>Opción C</li>
+</ol>
+
+<ol type="I">
+  <li>Capítulo I</li>
+  <li>Capítulo II</li>
+  <li>Capítulo III</li>
+</ol>
+```
+
+<div class="resultado" markdown="0">
+<ol type="A">
+  <li>Opción A</li>
+  <li>Opción B</li>
+  <li>Opción C</li>
+</ol>
+<ol type="I">
+  <li>Capítulo I</li>
+  <li>Capítulo II</li>
+  <li>Capítulo III</li>
+</ol>
+</div>
+
+> Los tres atributos se pueden combinar en la misma lista, por ejemplo `<ol start="10" reversed type="i">`.
 
 ## Imágenes
 

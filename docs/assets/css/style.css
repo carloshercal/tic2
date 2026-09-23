@@ -133,3 +133,28 @@ th, td {
 th {
   background: var(--color-fondo-code);
 }
+
+/* Caja "Resultado" para mostrar, justo debajo de un bloque de código,
+   cómo se ve ese HTML ya renderizado por el navegador (ver ut1/html.md). */
+.resultado {
+  border: 1px solid var(--color-borde);
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  margin: 0.75rem 0 1.25rem;
+  background: var(--color-fondo);
+}
+
+.resultado::before {
+  content: "Resultado";
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-texto-suave);
+  margin-bottom: 0.5rem;
+}
+
+.resultado > *:last-child {
+  margin-bottom: 0;
+}
