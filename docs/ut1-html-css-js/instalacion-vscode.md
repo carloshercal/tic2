@@ -77,4 +77,4 @@ Se abrirá una pestaña del navegador con tu página, que se recargará sola cad
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a HTML5](html.md)
+[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)

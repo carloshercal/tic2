@@ -12,6 +12,8 @@ HTML no es un lenguaje de programación: describe **qué es** cada parte del con
 
 Para escribir HTML se puede usar cualquier editor de texto, pero un **editor de código** facilita mucho el trabajo gracias a funciones como el resaltado de sintaxis (colorea etiquetas y texto para facilitar la lectura), el autocompletado (sugiere y cierra etiquetas automáticamente) y la detección de errores (marca etiquetas sin cerrar u otros fallos de sintaxis). Los más habituales son **Visual Studio Code**, **Sublime Text**, **Notepad++** y **Brackets**.
 
+En esta unidad usaremos **Visual Studio Code**. Antes de escribir tu primera línea de código, sigue la guía de [instalación y configuración](instalacion-vscode.md).
+
 ## Estructura básica de un documento
 
 Todo documento HTML debe tener siempre una estructura, con algunas etiquetas obligatorias y otras recomendables. Se distinguen 3 zonas principales:
@@ -342,4 +344,4 @@ Otros atributos útiles de `<input>`: `name` (identificador del campo), `value` 
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
+[⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)

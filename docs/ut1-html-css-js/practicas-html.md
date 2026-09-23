@@ -8,7 +8,7 @@ Esta página recoge una serie de ejercicios prácticos para ir aplicando, poco a
 
 El último ejercicio es un pequeño proyecto de síntesis que combina todo lo anterior, a modo de calentamiento antes del **proyecto web completo** que desarrollaréis con HTML, CSS y JavaScript al terminar esta unidad.
 
-> Guarda cada ejercicio en un archivo `.html` independiente (por ejemplo `ejercicio1.html`, `ejercicio2.html`...) dentro de una misma carpeta de trabajo, y ábrelos con el navegador para comprobar el resultado. Usa un editor de código como Visual Studio Code.
+> Guarda cada ejercicio en un archivo `.html` independiente (por ejemplo `ejercicio1.html`, `ejercicio2.html`...) dentro de una misma carpeta de trabajo, y ábrelos con el navegador para comprobar el resultado. Usa un editor de código como Visual Studio Code (sigue la guía de [instalación y configuración](instalacion-vscode.md) si todavía no lo tienes listo).
 
 ## Ejercicio 1 — Esqueleto de un documento HTML5
 
@@ -117,4 +117,4 @@ Este ejercicio es un pequeño ensayo del proyecto final de la unidad. Crea un mi
 
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a HTML5](html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
+[⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a HTML5](html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
