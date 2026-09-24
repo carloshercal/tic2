@@ -310,7 +310,89 @@ El atributo `target` define dónde se abrirá el enlace: `_self` (valor por defe
 - `bgcolor`: color de fondo de la tabla o de una celda.
 - `align` (horizontal: `left` / `center` / `right`) y `valign` (vertical: `top` / `middle` / `bottom`): alinean el contenido dentro de las celdas.
 
+> `bgcolor`, `align` y `valign` son atributos heredados de versiones antiguas de HTML: en HTML5 lo correcto es controlar estos aspectos con CSS. Los usamos aquí porque todavía no hemos visto CSS y ayudan a ver de forma visual qué hace cada etiqueta de la tabla; más adelante los sustituiremos por sus propiedades CSS equivalentes.
+
 Las tablas **no deben usarse como herramienta de maquetación** de la página; su uso correcto es mostrar datos tabulares.
+
+### Ejemplo completo
+
+Un ejemplo que combina todo lo anterior: cabecera, cuerpo y pie diferenciados, una celda que ocupa dos filas (`rowspan`), una que ocupa todas las columnas (`colspan`), color de fondo y alineación de celdas.
+
+```html
+<table border="1">
+  <caption>Precios de la cafetería del IES</caption>
+  <thead>
+    <tr bgcolor="#f6f8fa">
+      <th>Producto</th>
+      <th>Precio</th>
+      <th>Disponible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Bocadillos</td>
+      <td align="center">2,50 €</td>
+      <td align="center">Mañana</td>
+    </tr>
+    <tr>
+      <td align="center">2,80 €</td>
+      <td align="center">Tarde</td>
+    </tr>
+    <tr>
+      <td>Zumo</td>
+      <td align="center">1,20 €</td>
+      <td align="center">Todo el día</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center" bgcolor="#fff3cd">Los viernes, café gratis para el profesorado</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3" align="right" valign="middle">Precios actualizados en septiembre de 2026</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+<div class="resultado" markdown="0">
+<table border="1">
+  <caption>Precios de la cafetería del IES</caption>
+  <thead>
+    <tr bgcolor="#f6f8fa">
+      <th>Producto</th>
+      <th>Precio</th>
+      <th>Disponible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Bocadillos</td>
+      <td align="center">2,50 €</td>
+      <td align="center">Mañana</td>
+    </tr>
+    <tr>
+      <td align="center">2,80 €</td>
+      <td align="center">Tarde</td>
+    </tr>
+    <tr>
+      <td>Zumo</td>
+      <td align="center">1,20 €</td>
+      <td align="center">Todo el día</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center" bgcolor="#fff3cd">Los viernes, café gratis para el profesorado</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3" align="right" valign="middle">Precios actualizados en septiembre de 2026</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+
+Observa que la celda "Bocadillos" ocupa las dos filas de esa categoría (`rowspan="2"`) y que tanto la fila de la oferta como el pie de tabla ocupan las tres columnas (`colspan="3"`).
 
 ## Multimedia
 
