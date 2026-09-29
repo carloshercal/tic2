@@ -115,6 +115,8 @@ Este ejercicio es un pequeño ensayo del proyecto final de la unidad. Crea un mi
 
 > Este mini-sitio es solo el punto de partida: cuando lleguemos a CSS y JavaScript, iremos dándole estilo y comportamiento a estas mismas páginas (o a una versión ampliada).
 
+A medida que termines cada ejercicio, súbelo a tu repositorio de GitHub siguiendo la guía [Subir tus ejercicios a GitHub](github.md): así tu profesor puede corregirlos y ver tu progreso.
+
 ---
 
-[⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a HTML5](html.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
+[⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a HTML5](html.md) · [Ir a GitHub](github.md) · [Ir a CSS](css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)

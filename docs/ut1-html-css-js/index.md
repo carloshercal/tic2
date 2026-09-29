@@ -15,9 +15,10 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 1. [Instalación y configuración de Visual Studio Code](instalacion-vscode.md)
 2. [HTML5 — Estructura y contenido](html.md)
 3. [Prácticas de HTML5](practicas-html.md)
-4. [CSS — Estilos y maquetación](css.md)
-5. [JavaScript — Interactividad](javascript.md)
-6. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
+4. [Subir tus ejercicios a GitHub](github.md)
+5. [CSS — Estilos y maquetación](css.md)
+6. [JavaScript — Interactividad](javascript.md)
+7. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
 
 ## Qué vas a aprender
 
