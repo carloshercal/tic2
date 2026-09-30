@@ -17,8 +17,9 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 3. [Prácticas de HTML5](practicas-html.md)
 4. [Subir tus ejercicios a GitHub](github.md)
 5. [CSS — Estilos y maquetación](css.md)
-6. [JavaScript — Interactividad](javascript.md)
-7. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
+6. [Prácticas de CSS](practicas-css.md)
+7. [JavaScript — Interactividad](javascript.md)
+8. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
 
 ## Qué vas a aprender
 
@@ -28,6 +29,6 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 - Combinar las tres tecnologías para crear una página web completa, semántica y funcional.
 - Integrar widgets externos, publicar un sitio en un servidor remoto mediante FTP, y usar la API de Geolocalización de HTML5.
 
-> Las prácticas guiadas y las actividades evaluables de esta unidad se gestionan desde **Microsoft Teams**. Esta página es solo material de consulta (teoría resumida).
+> Las entregas y la evaluación de esta unidad se gestionan desde **Microsoft Teams**: allí entregarás el enlace a tu repositorio de GitHub con los ejercicios hechos.
 
 [⬅ Volver al inicio](../index.md)
