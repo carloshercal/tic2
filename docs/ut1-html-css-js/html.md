@@ -491,6 +491,123 @@ Otros atributos útiles de `<input>`: `name` (identificador del campo), `value` 
 <button type="button" onclick="alert('Hola')">Púlsame</button>
 ```
 
+### Ejemplo completo: formulario de alta
+
+Un formulario de registro para la web del club deportivo del instituto que combina todo lo anterior: campos de texto, contraseña y fecha, un grupo de botones de opción (`radio`), un grupo de casillas (`checkbox`) y los botones de enviar y limpiar. Cada bloque de datos va agrupado con `<fieldset>` y `<legend>`.
+
+```html
+<form action="/alta.php" method="post">
+  <fieldset>
+    <legend>Datos de acceso</legend>
+    <p>
+      <label for="usuario">Nombre de usuario:</label>
+      <input type="text" id="usuario" name="usuario" maxlength="20">
+    </p>
+    <p>
+      <label for="clave">Contraseña:</label>
+      <input type="password" id="clave" name="clave">
+    </p>
+    <p>
+      <label for="nacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="nacimiento" name="nacimiento">
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿En qué curso estás?</legend>
+    <p>
+      <input type="radio" id="bach1" name="curso" value="1bach">
+      <label for="bach1">1º de Bachillerato</label>
+      <input type="radio" id="bach2" name="curso" value="2bach" checked>
+      <label for="bach2">2º de Bachillerato</label>
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>¿Qué deportes te interesan?</legend>
+    <p>
+      <input type="checkbox" id="futbol" name="deportes" value="futbol">
+      <label for="futbol">Fútbol sala</label>
+      <input type="checkbox" id="baloncesto" name="deportes" value="baloncesto" checked>
+      <label for="baloncesto">Baloncesto</label>
+      <input type="checkbox" id="voleibol" name="deportes" value="voleibol">
+      <label for="voleibol">Voleibol</label>
+      <input type="checkbox" id="ajedrez" name="deportes" value="ajedrez">
+      <label for="ajedrez">Ajedrez</label>
+    </p>
+  </fieldset>
+
+  <p>
+    <input type="checkbox" id="normas" name="normas" value="acepto">
+    <label for="normas">He leído y acepto las normas del club</label>
+  </p>
+
+  <p>
+    <input type="submit" value="Darme de alta">
+    <input type="reset" value="Borrar datos">
+  </p>
+</form>
+```
+
+<div class="resultado" markdown="0">
+<form action="#" onsubmit="return false;">
+  <fieldset>
+    <legend>Datos de acceso</legend>
+    <p>
+      <label for="ej-usuario">Nombre de usuario:</label>
+      <input type="text" id="ej-usuario" name="usuario" maxlength="20">
+    </p>
+    <p>
+      <label for="ej-clave">Contraseña:</label>
+      <input type="password" id="ej-clave" name="clave">
+    </p>
+    <p>
+      <label for="ej-nacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="ej-nacimiento" name="nacimiento">
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>¿En qué curso estás?</legend>
+    <p>
+      <input type="radio" id="ej-bach1" name="curso" value="1bach">
+      <label for="ej-bach1">1º de Bachillerato</label>
+      <input type="radio" id="ej-bach2" name="curso" value="2bach" checked>
+      <label for="ej-bach2">2º de Bachillerato</label>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>¿Qué deportes te interesan?</legend>
+    <p>
+      <input type="checkbox" id="ej-futbol" name="deportes" value="futbol">
+      <label for="ej-futbol">Fútbol sala</label>
+      <input type="checkbox" id="ej-baloncesto" name="deportes" value="baloncesto" checked>
+      <label for="ej-baloncesto">Baloncesto</label>
+      <input type="checkbox" id="ej-voleibol" name="deportes" value="voleibol">
+      <label for="ej-voleibol">Voleibol</label>
+      <input type="checkbox" id="ej-ajedrez" name="deportes" value="ajedrez">
+      <label for="ej-ajedrez">Ajedrez</label>
+    </p>
+  </fieldset>
+  <p>
+    <input type="checkbox" id="ej-normas" name="normas" value="acepto">
+    <label for="ej-normas">He leído y acepto las normas del club</label>
+  </p>
+  <p>
+    <input type="submit" value="Darme de alta">
+    <input type="reset" value="Borrar datos">
+  </p>
+</form>
+</div>
+
+Prueba el formulario de arriba (aquí el botón «Darme de alta» no envía nada, porque esta página no tiene un servidor que reciba los datos) y fíjate en estos detalles:
+
+- **Contraseña:** al escribir en ella solo se ven puntos. Por eso el formulario usa `method="post"`: con `get` la contraseña aparecería escrita en la URL.
+- **Fecha:** `type="date"` muestra un calendario para elegir el día, sin tener que escribir el formato a mano.
+- **Radio:** los dos botones comparten `name="curso"`, así que **solo se puede marcar uno**. Si les pusieras `name` distintos, podrías marcar los dos.
+- **Checkbox:** en cambio, se pueden marcar **varias** casillas a la vez. `value` es lo que se envía al servidor por cada casilla marcada, no el texto que se ve.
+- **`checked`:** «2º de Bachillerato» y «Baloncesto» aparecen ya marcados al cargar la página. Pulsa «Borrar datos» (`reset`) y verás que el formulario vuelve a ese estado inicial, no a quedarse vacío.
+- **`<label for="...">`:** haz clic en el texto «Voleibol» en lugar de en la casilla: también se marca, porque el `for` de la etiqueta coincide con el `id` del control.
+
 ---
 
 [⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a Subir tus ejercicios a GitHub](github.md) · [Ir a CSS](css.md) · [Ir a Prácticas de CSS](practicas-css.md) · [Ir a JavaScript](javascript.md) · [Ir a Publicación web avanzada](publicacion-web.md)
