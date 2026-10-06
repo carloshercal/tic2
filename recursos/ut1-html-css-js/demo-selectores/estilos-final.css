@@ -1,0 +1,91 @@
+/* Torneos del recreo — ejemplo en directo de selectores CSS */
+
+/* ---------- 1. Selectores básicos ---------- */
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: teal;
+}
+
+h1, h2 {
+  color: navy;
+}
+
+.torneo {
+  background-color: #f3f0ff;
+}
+
+.novedad {
+  color: darkred;
+}
+
+#cabecera {
+  background-color: #e8eaf6;
+}
+
+/* ---------- 2. Selectores de relación ---------- */
+
+p > span {
+  color: blue;
+}
+
+h2 + h3 {
+  color: red;
+}
+
+h2 ~ p {
+  background-color: #fffbe6;
+}
+
+/* ---------- 3. Combinación de selectores ---------- */
+
+span.destacado {
+  color: purple;
+  font-weight: bold;
+}
+
+.aviso .especial {
+  background-color: yellow;
+}
+
+/* ---------- 4. Selectores de atributo (antes que las pseudoclases) ---------- */
+
+a[target] {
+  font-weight: bold;
+}
+
+a[href="#"] {
+  background-color: #eeeeee;
+}
+
+a[class~="recomendado"] {
+  background-color: #dff5df;
+}
+
+/* ---------- 5. Pseudoclases de enlaces (orden: link, visited, hover, active) ---------- */
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: white;
+  background-color: #1a237e;
+}
+
+a:active {
+  color: orange;
+}
+
+/* ---------- 6. Cierre: especificidad (un id gana a una clase) ---------- */
+
+#pinfuvote {
+  background-color: #fff3cd;
+}
