@@ -1,7 +1,5 @@
 # Guion del ejemplo en directo: selectores CSS («Torneos del recreo»)
 
-> **Documento interno del profesor.** Va en `recursos/ut1-html-css-js/`. Todas las respuestas esperadas se han comprobado en el navegador aplicando los pasos uno a uno.
-
 ## Resumen
 
 | | |

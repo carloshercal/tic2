@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510" width="760" height="510" font-family="Verdana, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Carta de colores con su código hexadecimal</title>
+<desc id="d">Ocho tonos (rojo, naranja, amarillo, verde, turquesa, azul, morado y rosa) en cinco luminosidades, más una fila de grises, cada uno con su código hexadecimal.</desc>
+<rect width="760" height="510" rx="12" fill="#ffffff"/>
+<text x="380.0" y="34" font-size="17" font-weight="bold" fill="#263238" text-anchor="middle">Carta de colores: cada muestra con su código hexadecimal</text>
+<text x="80" y="84.0" font-size="13" fill="#37474f" text-anchor="end">Rojo</text>
+<rect x="90" y="60" width="120" height="38" rx="6" fill="#f5bcbc"/>
+<text x="150.0" y="84.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#f5bcbc</text>
+<rect x="218" y="60" width="120" height="38" rx="6" fill="#ec7979"/>
+<text x="278.0" y="84.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#ec7979</text>
+<rect x="346" y="60" width="120" height="38" rx="6" fill="#e23636"/>
+<text x="406.0" y="84.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#e23636</text>
+<rect x="474" y="60" width="120" height="38" rx="6" fill="#b31919"/>
+<text x="534.0" y="84.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#b31919</text>
+<rect x="602" y="60" width="120" height="38" rx="6" fill="#701010"/>
+<text x="662.0" y="84.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#701010</text>
+<text x="80" y="130.0" font-size="13" fill="#37474f" text-anchor="end">Naranja</text>
+<rect x="90" y="106" width="120" height="38" rx="6" fill="#f5d7bc"/>
+<text x="150.0" y="130.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#f5d7bc</text>
+<rect x="218" y="106" width="120" height="38" rx="6" fill="#ecaf79"/>
+<text x="278.0" y="130.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#ecaf79</text>
+<rect x="346" y="106" width="120" height="38" rx="6" fill="#e28736"/>
+<text x="406.0" y="130.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#e28736</text>
+<rect x="474" y="106" width="120" height="38" rx="6" fill="#b36119"/>
+<text x="534.0" y="130.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#b36119</text>
+<rect x="602" y="106" width="120" height="38" rx="6" fill="#703d10"/>
+<text x="662.0" y="130.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#703d10</text>
+<text x="80" y="176.0" font-size="13" fill="#37474f" text-anchor="end">Amarillo</text>
+<rect x="90" y="152" width="120" height="38" rx="6" fill="#fbf0b6"/>
+<text x="150.0" y="176.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#fbf0b6</text>
+<rect x="218" y="152" width="120" height="38" rx="6" fill="#f7e06e"/>
+<text x="278.0" y="176.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#f7e06e</text>
+<rect x="346" y="152" width="120" height="38" rx="6" fill="#f4d125"/>
+<text x="406.0" y="176.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#f4d125</text>
+<rect x="474" y="152" width="120" height="38" rx="6" fill="#c2a30a"/>
+<text x="534.0" y="176.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#c2a30a</text>
+<rect x="602" y="152" width="120" height="38" rx="6" fill="#796606"/>
+<text x="662.0" y="176.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#796606</text>
+<text x="80" y="222.0" font-size="13" fill="#37474f" text-anchor="end">Verde</text>
+<rect x="90" y="198" width="120" height="38" rx="6" fill="#bcf5c6"/>
+<text x="150.0" y="222.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#bcf5c6</text>
+<rect x="218" y="198" width="120" height="38" rx="6" fill="#79ec8c"/>
+<text x="278.0" y="222.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#79ec8c</text>
+<rect x="346" y="198" width="120" height="38" rx="6" fill="#36e253"/>
+<text x="406.0" y="222.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#36e253</text>
+<rect x="474" y="198" width="120" height="38" rx="6" fill="#19b333"/>
+<text x="534.0" y="222.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#19b333</text>
+<rect x="602" y="198" width="120" height="38" rx="6" fill="#107020"/>
+<text x="662.0" y="222.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#107020</text>
+<text x="80" y="268.0" font-size="13" fill="#37474f" text-anchor="end">Turquesa</text>
+<rect x="90" y="244" width="120" height="38" rx="6" fill="#bcf5f1"/>
+<text x="150.0" y="268.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#bcf5f1</text>
+<rect x="218" y="244" width="120" height="38" rx="6" fill="#79ece2"/>
+<text x="278.0" y="268.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#79ece2</text>
+<rect x="346" y="244" width="120" height="38" rx="6" fill="#36e2d4"/>
+<text x="406.0" y="268.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#36e2d4</text>
+<rect x="474" y="244" width="120" height="38" rx="6" fill="#19b3a6"/>
+<text x="534.0" y="268.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#19b3a6</text>
+<rect x="602" y="244" width="120" height="38" rx="6" fill="#107068"/>
+<text x="662.0" y="268.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#107068</text>
+<text x="80" y="314.0" font-size="13" fill="#37474f" text-anchor="end">Azul</text>
+<rect x="90" y="290" width="120" height="38" rx="6" fill="#bcd4f5"/>
+<text x="150.0" y="314.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#bcd4f5</text>
+<rect x="218" y="290" width="120" height="38" rx="6" fill="#79a9ec"/>
+<text x="278.0" y="314.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#79a9ec</text>
+<rect x="346" y="290" width="120" height="38" rx="6" fill="#367ee2"/>
+<text x="406.0" y="314.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#367ee2</text>
+<rect x="474" y="290" width="120" height="38" rx="6" fill="#1959b3"/>
+<text x="534.0" y="314.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#1959b3</text>
+<rect x="602" y="290" width="120" height="38" rx="6" fill="#103870"/>
+<text x="662.0" y="314.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#103870</text>
+<text x="80" y="360.0" font-size="13" fill="#37474f" text-anchor="end">Morado</text>
+<rect x="90" y="336" width="120" height="38" rx="6" fill="#debcf5"/>
+<text x="150.0" y="360.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#debcf5</text>
+<rect x="218" y="336" width="120" height="38" rx="6" fill="#bc79ec"/>
+<text x="278.0" y="360.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#bc79ec</text>
+<rect x="346" y="336" width="120" height="38" rx="6" fill="#9b36e2"/>
+<text x="406.0" y="360.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#9b36e2</text>
+<rect x="474" y="336" width="120" height="38" rx="6" fill="#7319b3"/>
+<text x="534.0" y="360.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#7319b3</text>
+<rect x="602" y="336" width="120" height="38" rx="6" fill="#481070"/>
+<text x="662.0" y="360.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#481070</text>
+<text x="80" y="406.0" font-size="13" fill="#37474f" text-anchor="end">Rosa</text>
+<rect x="90" y="382" width="120" height="38" rx="6" fill="#f5bcd9"/>
+<text x="150.0" y="406.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#f5bcd9</text>
+<rect x="218" y="382" width="120" height="38" rx="6" fill="#ec79b3"/>
+<text x="278.0" y="406.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#ec79b3</text>
+<rect x="346" y="382" width="120" height="38" rx="6" fill="#e2368c"/>
+<text x="406.0" y="406.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#e2368c</text>
+<rect x="474" y="382" width="120" height="38" rx="6" fill="#b31966"/>
+<text x="534.0" y="406.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#b31966</text>
+<rect x="602" y="382" width="120" height="38" rx="6" fill="#701040"/>
+<text x="662.0" y="406.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#701040</text>
+<text x="80" y="452.0" font-size="13" fill="#37474f" text-anchor="end">Gris</text>
+<rect x="90" y="428" width="120" height="38" rx="6" fill="#e6e6e6"/>
+<text x="150.0" y="452.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#e6e6e6</text>
+<rect x="218" y="428" width="120" height="38" rx="6" fill="#b2b2b2"/>
+<text x="278.0" y="452.0" font-size="13" font-family="Consolas, monospace" fill="#000000" text-anchor="middle">#b2b2b2</text>
+<rect x="346" y="428" width="120" height="38" rx="6" fill="#808080"/>
+<text x="406.0" y="452.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#808080</text>
+<rect x="474" y="428" width="120" height="38" rx="6" fill="#4c4c4c"/>
+<text x="534.0" y="452.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#4c4c4c</text>
+<rect x="602" y="428" width="120" height="38" rx="6" fill="#1a1a1a"/>
+<text x="662.0" y="452.0" font-size="13" font-family="Consolas, monospace" fill="#ffffff" text-anchor="middle">#1a1a1a</text>
+<text x="380.0" y="496" font-size="12" fill="#555555" text-anchor="middle">De izquierda a derecha, el mismo tono cada vez más oscuro (menos luminosidad en HSL)</text>
+</svg>

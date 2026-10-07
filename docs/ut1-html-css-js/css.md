@@ -235,6 +235,10 @@ Son contenedores **genéricos**, sin significado propio, que se usan como «ganc
 
 ## Colores y fondos
 
+Para elegir colores, usa la **[carta de colores de HTML Color Codes](https://htmlcolorcodes.com/color-chart/)** (*Color Chart*): ahí puedes elegir un color y copiar su código para usarlo en tu CSS.
+
+[![Carta de colores: ocho tonos en cinco luminosidades más una fila de grises, cada muestra con su código hexadecimal](../img/css-carta-colores.svg)](https://htmlcolorcodes.com/color-chart/)
+
 - `color`: color del texto.
 - `background-color`: color de fondo.
 - `background-image`: imagen de fondo.

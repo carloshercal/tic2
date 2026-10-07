@@ -1,7 +1,5 @@
 # Soluciones — Prácticas de HTML5 (UT1)
 
-> **Documento interno para el profesorado.** No se publica en el sitio de GitHub Pages (vive en `/recursos`, fuera de `/docs`); repártelo por Teams si quieres dar el código resuelto al alumnado, por ejemplo después de la corrección en clase. Enunciados en [`docs/ut1-html-css-js/practicas-html.md`](../../docs/ut1-html-css-js/practicas-html.md).
-
 Estas son soluciones **de referencia**: hay más de una forma correcta de resolver cada ejercicio, y conviene aceptar variantes del alumnado siempre que cumplan los requisitos pedidos.
 
 ## Ejercicio 1 — Esqueleto de un documento HTML5
