@@ -19,13 +19,14 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 5. [CSS — Estilos y maquetación](css.md)
 6. [Prácticas de CSS](practicas-css.md)
 7. [JavaScript — Interactividad](javascript.md)
-8. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
+8. [Prácticas de JavaScript](practicas-js.md)
+9. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
 
 ## Qué vas a aprender
 
 - Escribir la estructura de un documento HTML5 válido: cabecera, metadatos, texto, listas, imágenes, enlaces, tablas, elementos multimedia y formularios.
 - Aplicar estilos con CSS mediante los tres métodos (en línea, interno y externo), utilizar selectores, y controlar colores, tipografía, el modelo de caja y el posicionamiento de los elementos.
-- Incorporar comportamiento dinámico con JavaScript: variables, tipos de datos, operadores, estructuras de control y ventanas emergentes.
+- Incorporar comportamiento dinámico con JavaScript: variables, tipos de datos, operadores, arrays, estructuras de control, ventanas emergentes y funciones que responden a la pulsación de un botón.
 - Combinar las tres tecnologías para crear una página web completa, semántica y funcional.
 - Integrar widgets externos, publicar un sitio en un servidor remoto mediante FTP, y usar la API de Geolocalización de HTML5.
 
