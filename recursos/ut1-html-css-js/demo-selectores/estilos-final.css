@@ -89,3 +89,37 @@ a:active {
 #pinfuvote {
   background-color: #fff3cd;
 }
+
+
+/* ---------- 7. Unidades de medida ---------- */
+
+/* px (absoluta): tamaño de la fuente raíz. Todo lo que vaya en rem depende de él */
+html {
+  font-size: 16px;
+}
+
+/* rem (relativa a la raíz): 2 × 16px = 32px */
+#calendario {
+  font-size: 2rem;
+}
+
+/* pt (absoluta, de imprenta): 12pt equivalen a 16px */
+main > p {
+  font-size: 12pt;
+}
+
+/* em (relativa a la fuente del padre, el <p>): 1,25 × 16px = 20px */
+main > p span {
+  font-size: 1.25em;
+}
+
+/* % (relativa al contenedor): el 80 % del ancho de la <section> */
+.torneo {
+  width: 80%;
+}
+
+/* vw y vh (relativas a la ventana): 60 % del ancho y 30 % del alto de la ventana */
+#pinfuvote {
+  width: 60vw;
+  height: 30vh;
+}

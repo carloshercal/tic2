@@ -1,11 +1,13 @@
 # Guion del ejemplo en directo: selectores CSS («Torneos del recreo»)
 
+> **Documento interno del profesor.** Va en `recursos/ut1-html-css-js/`. Todas las respuestas esperadas se han comprobado en el navegador aplicando los pasos uno a uno.
+
 ## Resumen
 
 | | |
 |---|---|
 | **Qué es** | La página de los torneos del recreo que empiezan esta semana (voleibol para 3º de ESO en adelante, lunes a miércoles; pinfuvote para 1º y 2º de ESO, jueves y viernes), con el HTML ya hecho, a la que se le añade una regla CSS por cada tipo de selector, en el orden de `css.md`. |
-| **Duración** | 2 sesiones: ~25 min de demo en la sesión 1 (bloques 1 y 2) y ~30 min en la sesión 2 (bloques 3 a 6). El resto, ejercicios 2, 3 y 4 de `practicas-css.md`. |
+| **Duración** | 2 sesiones de selectores (+ 1 sesión de repaso de unidades, bloque 7): ~25 min de demo en la sesión 1 (bloques 1 y 2) y ~30 min en la sesión 2 (bloques 3 a 6). El resto, ejercicios 2, 3 y 4 de `practicas-css.md`. |
 | **Dónde** | Repositorio `demo-profesor`, carpeta `ejercicios-css/demo-selectores/` (`index.html` + `css/estilos.css`). Un *commit* por bloque. |
 | **Pantalla** | VS Code a la izquierda y el navegador con Live Server a la derecha, ambos visibles en el proyector. |
 | **Propiedades usadas** | Solo `color`, `background-color`, `font-weight` y `font-family`, para que la atención esté en los selectores. |
@@ -487,6 +489,113 @@ a:active {
 ## Resultado final
 
 ![Resultado final de la demo: cabecera con fondo gris azulado, menú en verde, «Lunes» en rojo, párrafos del calendario con fondo crema y tres torneos, el de pinfuvote con fondo amarillo](demo-selectores-final.png)
+
+---
+
+## Sesión de repaso: unidades de medida (Bloque 7)
+
+Se hace sobre la **misma página**, sin tocar el HTML: se añade al final de `css/estilos.css` un bloque nuevo. Mismo ritmo de siempre: escribir, preguntar «¿qué va a pasar?», guardar y comprobar. Para medir, usa **F12 → pestaña Calculado (*Computed*)**: ahí se ve el valor final en píxeles.
+
+> Valores comprobados en el navegador con la ventana a 1000 × 700 px. Con otra ventana cambiarán los de `%`, `vw` y `vh`, y eso es justo lo que se quiere enseñar.
+
+### Calendario de la semana
+
+**Paso 18 · `px`, la raíz**
+
+```css
+/* px (absoluta): tamaño de la fuente raíz. Todo lo que vaya en rem depende de él */
+html {
+  font-size: 16px;
+}
+```
+
+- **Pregunta:** ¿cambia algo?
+- **Resultado:** **nada**: 16px ya es el tamaño por defecto del navegador. Lo escribimos para tener a la vista el valor del que dependen los `rem`.
+
+**Paso 19 · `rem`**
+
+```css
+/* rem (relativa a la raíz): 2 × 16px = 32px */
+#calendario {
+  font-size: 2rem;
+}
+```
+
+- **Pregunta:** ¿cuántos píxeles medirá «Calendario de la semana»?
+- **Resultado:** **32px** (2 × 16). El otro `h2`, «Torneos», sigue con el tamaño por defecto de un `h2` (24px).
+
+**Paso 20 · `pt`**
+
+```css
+/* pt (absoluta, de imprenta): 12pt equivalen a 16px */
+main > p {
+  font-size: 12pt;
+}
+```
+
+- **Pregunta:** ⚠️ ¿se ven más grandes o más pequeños los párrafos del calendario?
+- **Resultado:** **igual**: 12pt = 16px. Los puntos vienen del mundo de la imprenta (procesadores de texto); en pantalla se usan poco.
+
+**Paso 21 · `em`**
+
+```css
+/* em (relativa a la fuente del padre, el <p>): 1,25 × 16px = 20px */
+main > p span {
+  font-size: 1.25em;
+}
+```
+
+- **Pregunta:** ¿qué textos crecen?
+- **Resultado:** solo los dos `span` del lunes, «pista exterior» y «los primeros partidos de 3º de ESO», que pasan a **20px** (1,25 × 16px del párrafo). El `span` de «3º de ESO en adelante» no cambia: está en un párrafo del `article`, no en un hijo directo de `main`.
+
+### Artículo de los torneos
+
+**Paso 22 · `%`**
+
+```css
+/* % (relativa al contenedor): el 80 % del ancho de la <section> */
+.torneo {
+  width: 80%;
+}
+```
+
+- **Pregunta:** ¿qué parte de la página se estrecha?
+- **Resultado:** las tres fichas de torneo pasan a ocupar el 80 % de la `<section>`: **787px** de 984px. Estrecha la ventana: las fichas se encogen con ella, siempre al 80 %.
+
+### Artículo del pinfuvote
+
+**Paso 23 · `vw` y `vh`**
+
+```css
+/* vw y vh (relativas a la ventana): 60 % del ancho y 30 % del alto de la ventana */
+#pinfuvote {
+  width: 60vw;
+  height: 30vh;
+}
+```
+
+- **Pregunta:** ⚠️ la ficha del pinfuvote también tiene la clase `torneo` (80 %). ¿Qué ancho gana?
+- **Resultado:** el de `#pinfuvote`, porque un `id` es más específico que una clase (lo vimos en el bloque 6). Mide **600px** de ancho (60 % de 1000) y **210px** de alto (30 % de 700), aunque su texto no ocupe tanto.
+- **Experimento:** haz la ventana más baja sin cambiar el ancho: solo cambia la altura de la ficha. Luego más estrecha: solo cambia el ancho. Con la ventana a 600 × 500 mide 360 × 150px.
+
+### Cierre: ¿de quién depende cada unidad?
+
+En F12 → Elementos, selecciona `<html>` y cambia su `font-size` de `16px` a `20px` (o hazlo en el CSS y guarda). Antes de hacerlo, pregunta qué va a crecer.
+
+| Elemento | Unidad | Con raíz 16px | Con raíz 20px | ¿Por qué? |
+|---|---|---|---|---|
+| «Calendario de la semana» | `2rem` | 32px | **40px** | `rem` depende de la raíz |
+| «Torneos» (sin regla propia) | por defecto | 24px | **30px** | El tamaño por defecto también es relativo a la raíz |
+| Párrafos del calendario | `12pt` | 16px | **16px** | `pt` es absoluta: no depende de nada |
+| `span` del lunes | `1.25em` | 20px | **20px** | `em` depende del **padre** (el párrafo en `pt`), no de la raíz |
+| Ficha del pinfuvote | `60vw` × `30vh` | 600 × 210px | 600 × 210px | Solo depende de la ventana |
+
+⚠️ La fila del `span` suele sorprender: muchos esperan que crezca. Es la mejor forma de que quede clara la diferencia entre `em` y `rem`.
+
+Vuelve a dejar la raíz en 16px.
+
+> **Commit:** «Demo selectores: unidades de medida».
+
 
 ## Si algo se tuerce en directo
 
