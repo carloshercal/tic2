@@ -1,6 +1,4 @@
 # Soluciones — Prácticas de CSS (UT1)
-> **Documento interno del profesor. No publicar** (va en `recursos/ut1-html-css-js/`, fuera de `docs/`).
->
 > En los ejercicios 2 a 9 el alumnado parte del HTML que se da en el enunciado (en los ejercicios 2, 3, 4 y 9 lo completa siguiendo los pasos); el `index.html` de cada solución es el HTML final esperado.
 >
 > Soluciones de referencia de `docs/ut1-html-css-js/practicas-css.md`. Todas se han abierto en el navegador y las capturas de la página pública (`docs/img/css-practica-NN.png`) salen de este mismo código.

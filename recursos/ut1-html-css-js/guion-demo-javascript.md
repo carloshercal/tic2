@@ -1,14 +1,12 @@
 # Guion del ejemplo en directo: JavaScript («Viaje de fin de curso»), semana del 20 al 23 de octubre
 
-> **Documento interno del profesor.** Va en `recursos/ut1-html-css-js/`. El código final y cada resultado esperado se han comprobado en Chromium, igual que los errores provocados.
-
 ## Resumen
 
 | | |
 |---|---|
 | **Qué es** | La web del viaje de fin de curso de 2º de Bachillerato, con el HTML ya hecho. Cada sesión se le añade un bloque de JavaScript que rellena una parte de la página: bienvenida, presupuesto, destinos y «¿Puedes venir?». Sigue el orden de `javascript.md`. |
 | **Duración** | 4 sesiones, de 20 a 30 min de demo en cada una. El resto de la sesión se dedica a los ejercicios de `practicas-js.md`. |
-| **Dónde** | Repositorio `demo-profesor`, carpeta `ejercicios-js/demo-viaje/` (`index.html` + `js/script.js`). Un *commit* por bloque. |
+| **Dónde** | Repositorio `demo-profesor`, carpeta `ejercicios-js/demo-viaje/` (`index.html` + `css/estilos.css` + `js/script.js`). Un *commit* por bloque. |
 | **Pantalla** | VS Code a la izquierda y, a la derecha, el navegador con Live Server y la **consola abierta** (F12 → Consola), todo visible en el proyector. |
 | **Tema** | Es distinto del de los ejercicios (presentación, calculadora, semana, concierto, notas), así que lo que hace el alumnado no es copiar la demo. |
 
@@ -26,7 +24,7 @@
 
 ### Antes de la sesión 1
 
-1. En `demo-profesor`, crea `ejercicios-js/demo-viaje/` con el `index.html` de este guion y un `js/script.js` **vacío**.
+1. En `demo-profesor`, crea `ejercicios-js/demo-viaje/` con el `index.html` de este guion, la hoja `css/estilos.css` del [anexo](#anexo-hoja-de-estilos-cssestiloscss) y un `js/script.js` **vacío**.
 2. Ábrelo con Live Server y comprueba que se ve la página sin contenido dinámico: el subtítulo dice «Página en construcción» y los párrafos están vacíos.
 3. Haz *commit* («Demo JS: HTML de partida») y *push*.
 
@@ -50,6 +48,7 @@ Cada `id` corresponde a un paso del guion. El `<script>` ya está al final del `
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viaje de fin de curso</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
@@ -655,6 +654,152 @@ Respuestas: Aceptar (viene), 17 años, 40 alumnos y Cancelar (no ha pagado).
 Otros casos comprobados: 25 alumnos → 270 € por alumno y tarifa de 350 €; 52 alumnos → tarifa de 280 € (el precio por alumno sale 311.53846153846155: buen momento para comentar que los decimales largos se pueden redondear más adelante).
 
 ---
+
+## Anexo: hoja de estilos (`css/estilos.css`)
+
+Hoja solo para que la página se vea bien en el proyector: no se explica en la demo, pero el alumnado ya puede leerla porque usa lo visto en `css.md`. Las únicas propiedades nuevas son `border-radius` y `box-shadow`, marcadas como «extra». Los `span` de la lista de presupuesto tienen fondo naranja claro: al principio se ven como huecos vacíos, y se ve con claridad qué rellena JavaScript.
+
+```css
+/* Viaje de fin de curso — hoja de estilos de la demo de JavaScript
+   Pensada para el proyector: letra grande y mucho contraste.
+   Usa lo visto en css.md, salvo dos propiedades decorativas
+   (border-radius y box-shadow), marcadas con «extra». */
+
+/* ---------- General ---------- */
+
+html {
+  font-size: 20px;                 /* Base grande para que se lea desde el fondo del aula */
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  color: #263238;
+  background-color: #e0f2f1;
+}
+
+/* ---------- Cabecera ---------- */
+
+header {
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  background-color: #00695c;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+#subtitulo {
+  margin: 10px 0 0 0;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ffe082;                  /* Amarillo: se nota cuando JavaScript lo cambia */
+}
+
+/* ---------- Secciones como tarjetas ---------- */
+
+main {
+  width: 80%;
+  margin: 30px auto;
+}
+
+section {
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  border-left: 8px solid #00897b;
+  background-color: white;
+  border-radius: 8px;                          /* extra: esquinas redondeadas */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);   /* extra: sombra suave */
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  padding-bottom: 5px;
+  font-size: 1.4rem;
+  color: #00695c;
+  border-bottom: 2px dashed #b2dfdb;
+}
+
+p {
+  margin: 8px 0;
+}
+
+/* ---------- Presupuesto ---------- */
+
+ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Los valores que escribe JavaScript dentro de la lista */
+li span {
+  padding: 2px 8px;
+  font-weight: bold;
+  color: #bf360c;
+  background-color: #fff3e0;
+}
+
+/* ---------- Mensajes que escribe JavaScript ---------- */
+
+#saludo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#votado,
+#plaza,
+#tarifa {
+  font-weight: bold;
+  color: #00695c;
+}
+
+#autorizacion,
+#recordatorio {
+  font-weight: bold;
+  color: #c62828;                  /* Rojo: avisos importantes */
+}
+
+#descuento {
+  color: #2e7d32;
+}
+
+/* ---------- Pie y botón ---------- */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #004d40;
+}
+
+button {
+  padding: 12px 25px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #004d40;
+  background-color: #ffe082;
+  border: none;
+  border-radius: 6px;              /* extra */
+}
+
+button:hover {
+  background-color: #ffca28;
+}
+
+button:active {
+  color: white;
+  background-color: #ff8f00;
+}
+```
+
+![Página de la demo al final de la semana, con la hoja de estilos: cabecera verde azulado, cuatro tarjetas blancas y los valores del presupuesto resaltados en naranja](demo-viaje-final.png)
 
 ## Si algo se tuerce en directo
 
