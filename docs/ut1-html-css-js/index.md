@@ -21,6 +21,8 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 7. [JavaScript — Interactividad](javascript.md)
 8. [Prácticas de JavaScript](practicas-js.md)
 9. [Publicación web avanzada — Widgets, FTP y Geolocalización](publicacion-web.md)
+10. [GitHub Copilot en Visual Studio Code](copilot.md)
+11. [Proyecto final — Mi sitio web](proyecto.md)
 
 ## Qué vas a aprender
 
@@ -29,7 +31,8 @@ Una forma sencilla de recordar el papel de cada tecnología: **HTML es el esquel
 - Incorporar comportamiento dinámico con JavaScript: variables, tipos de datos, operadores, arrays, estructuras de control, ventanas emergentes y funciones que responden a la pulsación de un botón.
 - Combinar las tres tecnologías para crear una página web completa, semántica y funcional.
 - Integrar widgets externos, publicar un sitio en un servidor remoto mediante FTP, y usar la API de Geolocalización de HTML5.
+- Usar un asistente de programación con inteligencia artificial (GitHub Copilot) de forma crítica y responsable.
 
-> Las entregas y la evaluación de esta unidad se gestionan desde **Microsoft Teams**: allí entregarás el enlace a tu repositorio de GitHub con los ejercicios hechos.
+> Las entregas y la evaluación de esta unidad se gestionan desde **Microsoft Teams**: allí entregarás el enlace a tu repositorio de GitHub, tanto de los ejercicios como del proyecto final.
 
 [⬅ Volver al inicio](../index.md)
