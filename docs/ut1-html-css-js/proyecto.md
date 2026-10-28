@@ -284,6 +284,7 @@ Para quien vaya más rápido. Cuentan para el Sobresaliente del indicador «Java
 2. **Mini cuestionario** sobre tu tema: varias preguntas con `prompt()` o con campos del formulario, que cuentan los aciertos y muestran la puntuación.
 3. **Dato aleatorio:** un botón que muestra un dato curioso al azar de un array, con `Math.floor(Math.random() * datos.length)`.
 4. **Una cuarta página** con un segundo widget distinto del primero.
+
 ## Errores frecuentes
  
 - **El formulario recarga la página y el mensaje desaparece.** El botón es de tipo `submit`. Usa `<button type="button" onclick="...">`.
@@ -294,6 +295,7 @@ Para quien vaya más rápido. Cuentan para el Sobresaliente del indicador «Java
 - **`5 + 3` da `53` al sumar campos del formulario.** `.value` siempre devuelve texto: conviértelo con `Number()`.
 - **Copiar código de Copilot que no entiendes.** Si no sabes explicarlo en la presentación, no cuenta como tuyo. Pídele que te lo explique o que lo rehaga con lo visto en clase.
 - **Dejarlo todo para el último día.** Haz *commit* y *push* al final de cada sesión: si algo se rompe, puedes volver atrás.
+
 ---
  
 [⬅ Volver a UT1](index.md) · [Ir a Instalación de VS Code](instalacion-vscode.md) · [Ir a HTML5](html.md) · [Ir a Prácticas de HTML5](practicas-html.md) · [Ir a Subir tus ejercicios a GitHub](github.md) · [Ir a CSS](css.md) · [Ir a Prácticas de CSS](practicas-css.md) · [Ir a JavaScript](javascript.md) · [Ir a Prácticas de JavaScript](practicas-js.md) · [Ir a Publicación web avanzada](publicacion-web.md) · [Ir a GitHub Copilot en VS Code](copilot.md)
