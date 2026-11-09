@@ -265,7 +265,7 @@ Cada indicador se califica según la rúbrica: **Insuficiente** (0-4), **Suficie
  
 ### D. Coevaluación de la presentación (20 %)
  
-La rellenan tus compañeros. Cada nivel equivale a: Insuficiente 3, Suficiente 5,5, Notable 7,5 y Sobresaliente 9,5. La nota es la media de todos los criterios y de todos los evaluadores.
+La rellenan tus compañeros. Cada nivel equivale a: Insuficiente 3, Suficiente 5,5, Notable 7,5 y Sobresaliente 10. La nota es la media de todos los criterios y de todos los evaluadores.
  
 | Criterio | Insuficiente | Suficiente | Notable | Sobresaliente |
 |---|---|---|---|---|
