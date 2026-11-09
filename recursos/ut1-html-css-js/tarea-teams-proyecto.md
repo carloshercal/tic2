@@ -73,7 +73,7 @@ En el enunciado la rúbrica tiene 16 indicadores. Teams admite pocos criterios p
 
 | Nivel | Puntos |
 |---|---|
-| Sobresaliente | 9,5 |
+| Sobresaliente | 10 |
 | Notable | 7,5 |
 | Suficiente | 5,5 |
 | Insuficiente | 3 |

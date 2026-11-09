@@ -104,26 +104,46 @@ Para comprobar la autoría sin agobiar. Elegir una o dos según el proyecto:
 
 ## Coevaluación con Microsoft Forms
 
-**Configuración:**
+**Decisiones:**
 
-- Un único formulario para las dos sesiones, compartido en Teams.
-- En *Configuración*: solo personas de la organización y **registrar el nombre** (hace falta para aplicar la regla de la PD y evitar que alguien se evalúe a sí mismo). Los resultados no se comparten con el alumnado.
-- Cada alumno lo envía una vez por compañero, justo después de cada presentación (4 envíos por alumno).
+- **Un solo formulario** para las dos sesiones, con una pregunta «¿A quién evalúas?». Cada alumno lo envía 4 veces, una por compañero.
+- **Publicarlo como pestaña del canal**, no como tarea: una tarea con Forms espera una sola respuesta por alumno.
+- **Preguntas de tipo Elección con el descriptor dentro de cada opción** (no Likert): así leen el nivel completo, también desde el móvil, y la conversión a nota sale de las tres primeras letras.
+
+**Configuración** (⋯ → Configuración):
+
+- Solo los usuarios de mi organización pueden responder · **Registrar nombre: sí** · **Una respuesta por persona: no**.
+- Fechas: inicio el mar 17/11 a las 8:00 y fin el mié 18/11 a las 15:00.
+- Sin mezclar preguntas. Resultados no compartidos con el alumnado.
 - Con 5 alumnos el anonimato es limitado: avisar de que el profesor ve las respuestas, pero los compañeros no.
 
-**Preguntas:**
+**Preguntas** (todas obligatorias, opciones de Insuficiente a Sobresaliente, sin mezclar):
 
-1. ¿A quién evalúas? *(desplegable con los 5 nombres; obligatoria)*
-2. Se entiende de qué trata la web. *(Insuficiente / Suficiente / Notable / Sobresaliente)*
-3. La web funciona y se ve bien. *(ídem)*
-4. Explica cómo ha hecho su código. *(ídem)*
-5. Comunicación y tiempo. *(ídem)*
-6. ¿Qué es lo que más te ha gustado? *(texto corto; obligatoria)*
-7. ¿Qué le recomendarías mejorar? *(texto corto; obligatoria)*
+1. ¿A quién evalúas? *(Elección con desplegable; los 5 nombres escritos **exactamente** como aparecen en Teams)*
+2. Se entiende de qué trata la web.
+   - Insuficiente — No queda claro el tema.
+   - Suficiente — Se entiende el tema, pero no para quién es.
+   - Notable — Tema y público claros.
+   - Sobresaliente — Tema y público claros, y me han dado ganas de visitarla.
+3. La web funciona y se ve bien.
+   - Insuficiente — Hay partes que fallan o no se ven.
+   - Suficiente — Funciona, pero se ve descuidada.
+   - Notable — Funciona y se ve ordenada.
+   - Sobresaliente — Funciona sin fallos y el diseño es atractivo.
+4. Explica cómo ha hecho su código.
+   - Insuficiente — No explica el código.
+   - Suficiente — Lo explica, pero no lo he entendido.
+   - Notable — Lo he entendido casi todo.
+   - Sobresaliente — Lo he entendido todo y podría hacerlo yo.
+5. Comunicación y tiempo.
+   - Insuficiente — Se sale mucho del tiempo o lee todo.
+   - Suficiente — Lee a menudo.
+   - Notable — Habla con claridad y en su tiempo.
+   - Sobresaliente — Habla con claridad, en su tiempo y engancha.
+6. ¿Qué es lo que más te ha gustado? *(Texto, respuesta larga)*
+7. ¿Qué le recomendarías mejorar? *(Texto, respuesta larga)*
 
-En las preguntas 2 a 5, copiar en la descripción el texto de los cuatro niveles de la rúbrica D para que lo tengan delante.
-
-**Cálculo:** exportar a Excel, convertir (Insuficiente 3; Suficiente 5,5; Notable 7,5; Sobresaliente 9,5), descartar las autoevaluaciones si las hay y hacer la media por alumno evaluado. Las preguntas 6 y 7 sirven para la devolución del 18/11.
+**Cálculo:** al terminar el 18/11, Respuestas → Abrir en Excel → descargar una copia y calcular en ella. Conversión: Insuficiente 3; Suficiente 5,5; Notable 7,5; Sobresaliente 10. Descartar las autoevaluaciones (nombre del que responde = nombre evaluado) y hacer la media por alumno evaluado. Aplicar la regla de los 2 puntos con la nota del profesor en C. Las preguntas 6 y 7 sirven para la devolución del 18/11.
 
 ---
 
