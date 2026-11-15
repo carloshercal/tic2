@@ -26,12 +26,14 @@ Tarea corta, sin nota, para recoger los temas antes de empezar.
 
 ## Tarea 2 — Proyecto final
 
+> **Actualizado el 15/11/2026:** entrega ampliada al martes 17/11 y presentaciones el 18 y 19/11. El martes 10/11 no hubo clase (visita al CPD).
+
 | Campo | Valor |
 |---|---|
 | **Título** | Proyecto final UT1 · Mi sitio web |
 | **Publicar** | Mar 3/11/2026, al presentar el proyecto |
-| **Fecha de vencimiento** | Lun 16/11/2026, 23:59 |
-| **Fecha de cierre** | Lun 16/11/2026, 23:59 (sin entregas tardías, como dice el enunciado) |
+| **Fecha de vencimiento** | Mar 17/11/2026, 23:59 |
+| **Fecha de cierre** | Mar 17/11/2026, 23:59 (sin entregas tardías, como dice el enunciado) |
 | **Puntos** | 10 |
 | **Rúbrica** | «Proyecto final UT1» (ver más abajo) |
 | **Recursos** | Opcional: PDF del enunciado como copia de referencia |
@@ -46,16 +48,16 @@ Tarea corta, sin nota, para recoger los temas antes de empezar.
 > 🤖 Uso de Copilot: https://carloshercal.github.io/tic2/ut1-html-css-js/copilot.html
 >
 > **Fechas clave**
-> - 10, 11, 12 y 13 de noviembre: desarrollo en clase.
-> - Lunes 16/11, 23:59: entrega.
-> - 17 y 18 de noviembre: presentaciones y coevaluación.
+> - 11, 12, 13 y 17 de noviembre: desarrollo en clase.
+> - Martes 17/11, 23:59: entrega.
+> - 18 y 19 de noviembre: presentaciones y coevaluación.
 >
 > **Cómo entregar**
 > 1. Haz *commit* y *push* de la carpeta `proyecto/` de tu repositorio.
 > 2. Comprueba en GitHub que están todos los archivos e imágenes.
 > 3. En esta tarea, pulsa **Agregar trabajo → Vínculo**, pega el enlace a tu repositorio (`https://github.com/iesviadelaplata-tic2-2026/ut1-html-css-js-tuusuario`) y pulsa **Entregar**.
 >
-> Lo que subas a GitHub después de las 23:59 del 16/11 no se tendrá en cuenta.
+> Lo que subas a GitHub después de las 23:59 del 17/11 no se tendrá en cuenta.
 >
 > El proyecto supone el 80 % de la nota de la UT1. Esta rúbrica recoge el 80 % de la nota del proyecto; el 20 % restante es la coevaluación de la presentación, que se hace en Forms. Si la versión del enunciado del PDF y la de la web no coinciden, vale la de la web.
 

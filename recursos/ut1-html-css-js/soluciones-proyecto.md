@@ -16,25 +16,29 @@ Material interno para `recursos/ut1-html-css-js/`. El enunciado público está e
 
 ## Calendario y efecto en la temporalización
 
+> **Actualizado el 15/11/2026** con lo que ha pasado en clase: Copilot se adelantó al viernes 6/11, el martes 10/11 no hubo clase (visita al CPD) y la entrega se amplió un día, al martes 17/11.
+
 | Fecha | Sesión | Contenido |
 |---|---|---|
 | Jue 29/10 | — | Última sesión de JavaScript (Ej. 10 — Me gusta). |
-| Mar 3/11 | margen | Terminar ejercicios de JS. Últimos 15 min: presentar el proyecto. |
-| Mié 4 – vie 6/11 | — | Widgets, FTP y geolocalización (`publicacion-web.md`). |
-| Mar 10/11 | 1 | Copilot (actividad guiada, 25 min) + plan del sitio y esqueleto HTML. |
-| Mié 11/11 | 2 | Desarrollo: HTML y CSS. |
-| Jue 12/11 | 3 | Desarrollo: CSS y JavaScript. |
-| Vie 13/11 | 4 | Desarrollo: JS y README. Sorteo del orden de presentación. |
-| Lun 16/11, 23:59 | — | Entrega. |
-| Mar 17/11 | 5 | Presentaciones (3 alumnos) + coevaluación. |
-| Mié 18/11 | 6 | Presentaciones (2 alumnos) + coevaluación + devolución en grupo. |
+| Mar 3/11 | margen | Repaso. Últimos 15 min: presentar el proyecto. |
+| Mié 4 – jue 5/11 | — | Widgets, FTP y geolocalización (`publicacion-web.md`). |
+| Vie 6/11 | — | Demo de Copilot (`guion-demo-copilot.md`), hasta «Las instrucciones del repositorio». |
+| Mar 10/11 | — | Sin clase (visita al CPD). |
+| Mié 11/11 | 1 | Terminar Copilot (reglas de uso y actividad guiada) + plan del sitio y esqueleto HTML. |
+| Jue 12/11 | 2 | Desarrollo: HTML y CSS. |
+| Vie 13/11 | 3 | Desarrollo: CSS, JavaScript y README. Sorteo del orden de presentación (hecho). |
+| Mar 17/11 | 4 | Última sesión de desarrollo en clase. |
+| Mar 17/11, 23:59 | — | Entrega (ampliada un día; antes, lun 16/11). |
+| Mié 18/11 | 5 | Presentaciones (3 alumnos) + coevaluación. |
+| Jue 19/11 | 6 | Presentaciones (2 alumnos) + coevaluación + devolución en grupo. |
 
-**Efecto:** la temporalización revisada daba 3 sesiones al proyecto (10-12/11) y empezaba la UT2 el 13/11. Con 6 sesiones, la UT2 empieza el **jueves 19/11**: son 3 sesiones más. Propuesta para compensarlas:
+**Efecto:** la temporalización revisada daba 3 sesiones al proyecto (10-12/11) y empezaba la UT2 el 13/11. Con el calendario actual, la UT2 empieza el **viernes 20/11**. Propuesta para compensarlo:
 
 - Usar las **2 sesiones de margen** del 10-11/12.
 - Quitar **1 sesión a la UT2** (de 8 a 7), como ya preveía la nota de la temporalización.
 
-Con eso: UT2 del 19/11 al 1/12 (7 sesiones) y UT3 del 2/12 al 11/12 (6 sesiones, con el 8/12 festivo). No queda margen antes de la 1.ª evaluación.
+Con eso: UT2 del 20/11 al 2/12 (7 sesiones) y UT3 desde el 3/12. Antes del 11/12 solo caben **5 de sus 6 sesiones** (el 8/12 es festivo): la sexta pasaría al martes 15/12, ya en la 2.ª evaluación, o habría que dejar la UT3 en 5 sesiones. **Pendiente de decidir.**
 
 ## Guion para presentar el proyecto (mar 3/11, 15 min)
 
@@ -113,7 +117,7 @@ Para comprobar la autoría sin agobiar. Elegir una o dos según el proyecto:
 **Configuración** (⋯ → Configuración):
 
 - Solo los usuarios de mi organización pueden responder · **Registrar nombre: sí** · **Una respuesta por persona: no**.
-- Fechas: inicio el mar 17/11 a las 8:00 y fin el mié 18/11 a las 15:00.
+- Fechas: inicio el mié 18/11 a las 8:00 y fin el jue 19/11 a las 15:00.
 - Sin mezclar preguntas. Resultados no compartidos con el alumnado.
 - Con 5 alumnos el anonimato es limitado: avisar de que el profesor ve las respuestas, pero los compañeros no.
 
@@ -143,7 +147,7 @@ Para comprobar la autoría sin agobiar. Elegir una o dos según el proyecto:
 6. ¿Qué es lo que más te ha gustado? *(Texto, respuesta larga)*
 7. ¿Qué le recomendarías mejorar? *(Texto, respuesta larga)*
 
-**Cálculo:** al terminar el 18/11, Respuestas → Abrir en Excel → descargar una copia y calcular en ella. Conversión: Insuficiente 3; Suficiente 5,5; Notable 7,5; Sobresaliente 10. Descartar las autoevaluaciones (nombre del que responde = nombre evaluado) y hacer la media por alumno evaluado. Aplicar la regla de los 2 puntos con la nota del profesor en C. Las preguntas 6 y 7 sirven para la devolución del 18/11.
+**Cálculo:** al terminar el 19/11, Respuestas → Abrir en Excel → descargar una copia y calcular en ella. Conversión: Insuficiente 3; Suficiente 5,5; Notable 7,5; Sobresaliente 10. Descartar las autoevaluaciones (nombre del que responde = nombre evaluado) y hacer la media por alumno evaluado. Aplicar la regla de los 2 puntos con la nota del profesor en C. Las preguntas 6 y 7 sirven para la devolución del 19/11.
 
 ---
 

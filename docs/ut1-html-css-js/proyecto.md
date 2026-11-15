@@ -212,7 +212,7 @@ Antes de entregar, revisa:
 
 1. Haz *commit* y *push* de la carpeta `proyecto/` (repasa [Subir tus ejercicios a GitHub](github.md)).
 2. Entra en tu repositorio en GitHub y comprueba que están todos los archivos y las imágenes.
-3. Entrega el **enlace a tu repositorio** en la tarea del proyecto en Teams antes del **lunes 16/11 a las 23:59**.
+3. Entrega el **enlace a tu repositorio** en la tarea del proyecto en Teams antes del **martes 17/11 a las 23:59**.
 
 Lo que se sube después de esa hora no se tiene en cuenta.
 
