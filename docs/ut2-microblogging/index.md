@@ -11,6 +11,8 @@ En esta unidad vas a analizar cómo funcionan estas plataformas y a crear tu pro
 ## Contenidos
 
 1. [Qué es el microblogging](microblogging.md)
+2. [Escribir para microblogging](escribir-microblogging.md)
+3. [Prácticas de microblogging](practicas-microblogging.md)
 
 *El resto de páginas se irán añadiendo a lo largo de la unidad.*
 
