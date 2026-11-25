@@ -171,4 +171,4 @@ Este es el aviso que el departamento de Música quiere publicar:
 
 ---
 
-[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Prácticas de microblogging](practicas-microblogging.md)
+[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md)

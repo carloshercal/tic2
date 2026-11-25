@@ -132,4 +132,4 @@ Esta estructura es la base de la **bitácora** que vas a construir en esta unida
 
 ---
 
-[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Prácticas de microblogging](practicas-microblogging.md)
+[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md)
