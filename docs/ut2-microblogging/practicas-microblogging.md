@@ -4,13 +4,15 @@ title: UT2 — Prácticas de microblogging
 
 # Prácticas de microblogging
 
-Los ejercicios están ordenados por dificultad. Los ejercicios 1 y 2 corresponden a [Qué es el microblogging](microblogging.md), y los ejercicios 3 a 5, a [Escribir para microblogging](escribir-microblogging.md).
+La práctica principal de la unidad es el **[Ejercicio 6 — Mi bitácora](#ejercicio-6)**: en ella aplicas todo lo que has visto en [Qué es el microblogging](microblogging.md) y [Escribir para microblogging](escribir-microblogging.md).
 
-> **Cómo entregar estos ejercicios.** Escribe cada uno en un archivo Markdown (`.md`) con VS Code. Cuando tengas tu repositorio de la bitácora, guárdalos en la carpeta `ejercicios/` con el nombre que indica cada ejercicio, y haz `commit` y `push`.
+Los **ejercicios 1 a 5 son opcionales**. Sirven para repasar la teoría antes de ponerte con la bitácora o si quieres practicar más. Los ejercicios 3, 4 y 5 te vienen bien para preparar el hilo y la foto con licencia que pide el ejercicio 6.
+
+> **Cómo entregar los ejercicios opcionales.** Escribe cada uno en un archivo Markdown (`.md`) con VS Code y guárdalo en la carpeta `ejercicios/` de tu repositorio de la bitácora, con el nombre que indica cada ejercicio. Después, haz `commit` y `push`.
 
 ---
 
-## Ejercicio 1 — Anatomía de un post
+## Ejercicio 1 — Anatomía de un post (opcional)
 
 **Objetivo:** reconocer los elementos de un post y deducir por el nombre de usuario si la plataforma es centralizada o federada.
 
@@ -64,7 +66,7 @@ Estos son tres posts de cuentas inventadas:
 
 ---
 
-## Ejercicio 2 — Detecta los fallos
+## Ejercicio 2 — Detecta los fallos (opcional)
 
 **Objetivo:** identificar los errores más habituales al publicar y corregirlos.
 
@@ -102,7 +104,7 @@ Cada uno de estos posts tiene al menos un fallo:
 
 ---
 
-## Ejercicio 3 — Cabe en 280
+## Ejercicio 3 — Cabe en 280 (opcional)
 
 **Objetivo:** resumir un aviso largo respetando el límite de caracteres de cada plataforma.
 
@@ -124,7 +126,7 @@ Este es el aviso que el departamento de Música quiere publicar:
 
 ---
 
-## Ejercicio 4 — Cuéntalo en un hilo
+## Ejercicio 4 — Cuéntalo en un hilo (opcional)
 
 **Objetivo:** escribir un hilo bien estructurado sobre un tema cercano.
 
@@ -147,7 +149,7 @@ Este es el aviso que el departamento de Música quiere publicar:
 
 ---
 
-## Ejercicio 5 — Una foto con licencia
+## Ejercicio 5 — Una foto con licencia (opcional)
 
 **Objetivo:** publicar una imagen ajena de forma legal y accesible.
 
@@ -169,6 +171,52 @@ Este es el aviso que el departamento de Música quiere publicar:
 
 **Ampliación (opcional):** busca una imagen con licencia **CC BY-NC** y explica si podrías usarla en el post de una academia de música que cobra por sus clases.
 
+## Ejercicio 6 — Mi bitácora {#ejercicio-6}
+
+**Objetivo:** publicar en tu bitácora contenidos breves de todos los tipos (texto, foto, cita, enlace, diálogo, vídeo y música), de forma clara, accesible y respetando los derechos de autor.
+
+Antes de empezar, monta tu bitácora siguiendo [Montar tu bitácora](bitacora.md). Allí tienes también el código de cada tipo de post.
+
+**Enunciado**
+
+1. **Elige el tema** de tu bitácora: un deporte, un grupo de música, un videojuego, la cocina, tu pueblo, el huerto del instituto… Escríbelo en la cabecera, con un título y una descripción.
+2. **Publica al menos un post de cada uno de los 7 tipos**, con su tipo indicado en `<span class="tipo">`:
+   - **Texto:** una idea, un aviso o una opinión.
+   - **Foto:** una foto **propia**, sin personas reconocibles, con su texto alternativo.
+   - **Cita:** una frase con su autor (y la obra, si la tiene).
+   - **Enlace:** una web o noticia con tu comentario, y un texto del enlace que diga adónde lleva.
+   - **Diálogo:** una conversación corta, real o inventada.
+   - **Vídeo:** un vídeo insertado con su código de insertar (YouTube: Compartir → Insertar).
+   - **Música:** una canción insertada desde una plataforma de música o un audio propio.
+3. **Publica una foto ajena con licencia.** Busca en [Wikimedia Commons](https://commons.wikimedia.org) una imagen con licencia Creative Commons o de dominio público. Descárgala en `img/` y publícala en un post de foto con:
+   - su **texto alternativo**;
+   - la **atribución** en el `<figcaption>`: título, autor, sitio y licencia, con enlace a la página de la imagen.
+4. **Publica un hilo** de 3 o 4 posts seguidos sobre el mismo tema. Cumple las normas de los apuntes:
+   - el primero anuncia que es un hilo (🧵);
+   - todos van numerados (`1/3`, `2/3`…);
+   - cada uno se entiende aunque se lea suelto.
+5. **Revisa cada post** antes de publicarlo:
+   - El texto tiene **280 caracteres como máximo**, sin contar las etiquetas HTML. Selecciona solo el texto en VS Code y mira la barra de estado.
+   - Lleva de 1 a 3 **etiquetas**, con mayúscula inicial en cada palabra.
+   - Una idea por post y lo importante al principio.
+   - Ortografía cuidada.
+6. **Comprueba tu bitácora entera**:
+   - Los posts están en orden, del más reciente (arriba) al más antiguo.
+   - Firmas con tu alias y no aparece ningún dato personal tuyo ni de otras personas.
+   - Todas las imágenes tienen `alt`.
+   - Ya no queda nada de la plantilla: ni `@tu_alias`, ni «Nombre visible», ni los posts de ejemplo.
+7. Haz `commit` y `push` cada vez que termines un post, y comprueba que se ve en tu bitácora publicada.
+
+**Resultado esperado:** una bitácora publicada en `https://iesviadelaplata-tic2-2026.github.io/ut2-microblogging-tuusuario/` con, como mínimo, 10 posts: uno de cada tipo, la foto con licencia y un hilo de 3 posts. Todos respetan el límite de 280 caracteres, usan bien las etiquetas y no contienen datos personales.
+
+**Entrega:** tu repositorio de la bitácora (`index.html`, `css/estilos.css` e `img/`). En Teams entregarás el enlace a tu bitácora publicada. Qué más se entrega y cómo se evalúa: [Entrega y evaluación](evaluacion.md).
+
+**Ampliación (opcional):**
+
+- Adapta tus colores, tipografía y bordes en `css/estilos.css` para que la bitácora tenga un estilo propio y acorde con su tema.
+- Publica un segundo hilo, o una versión de tu hilo para Mastodon (500 caracteres) con menos posts.
+- Añade una **ficha** a la cabecera, como el perfil de una red social: una foto o dibujo que no sea tu cara, con su `alt`, y una frase de presentación.
+
 ---
 
-[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md)
+[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md) · [Entrega y evaluación](evaluacion.md)

@@ -14,6 +14,7 @@ En esta unidad vas a analizar cómo funcionan estas plataformas y a crear tu pro
 2. [Escribir para microblogging](escribir-microblogging.md)
 3. [Montar tu bitácora](bitacora.md)
 4. [Prácticas de microblogging](practicas-microblogging.md)
+5. [Entrega y evaluación](evaluacion.md)
 
 *El resto de páginas se irán añadiendo a lo largo de la unidad.*
 

@@ -34,6 +34,8 @@ En un repositorio público, cada `commit` muestra el correo de quien lo hizo. Gi
 git config user.email "12345678+tuusuario@users.noreply.github.com"
 ```
 
+> ⚠️ Ese correo es **solo un ejemplo**. Escribe **el tuyo**, el que copiaste en Settings → Emails: el número y el usuario son distintos para cada persona.
+
 Este correo solo se aplica a este repositorio, así que no afecta a otros usuarios del ordenador del aula.
 
 ## 3. Clona el repositorio y ábrelo
@@ -44,7 +46,7 @@ Clónalo en VS Code como en la UT1 y ábrelo con **Live Server**. Verás una bit
 index.html           ← tu bitácora
 css/estilos.css      ← estilos
 img/                 ← tus imágenes
-ejercicios/          ← ejercicios 1 a 5 de las prácticas
+ejercicios/          ← ejercicios opcionales de las prácticas
 README.md
 ```
 
@@ -94,7 +96,7 @@ Para publicar un post nuevo, copia un `<article>` entero, pégalo **encima** del
 https://iesviadelaplata-tic2-2026.github.io/ut2-microblogging-tuusuario/
 ```
 
-4. Copia los ejercicios 1 a 5 en la carpeta `ejercicios/` y vuelve a hacer `commit` y `push`.
+4. Sigue con el [Ejercicio 6 — Mi bitácora](practicas-microblogging.md#ejercicio-6): publicar un post de cada tipo, un hilo y una foto con licencia.
 
 ## Tipos de post
 

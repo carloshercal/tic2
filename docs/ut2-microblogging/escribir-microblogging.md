@@ -125,4 +125,4 @@ Antes de publicar:
 
 ---
 
-[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md)
+[⬅ Volver a UT2](index.md) · [Qué es el microblogging](microblogging.md) · [Escribir para microblogging](escribir-microblogging.md) · [Montar tu bitácora](bitacora.md) · [Prácticas de microblogging](practicas-microblogging.md) · [Entrega y evaluación](evaluacion.md)
